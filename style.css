@@ -1,0 +1,27 @@
+p {
+  color: red;
+  width: 180px;
+  border: 2px solid black;
+  text-align: left;
+  
+}
+
+#id-pend {
+  color: green;
+  border: 0px solid black;
+  text-align: right;
+}
+
+ul {
+  color: blue;
+}
+
+@font-face {
+  font-family: aa;
+  src: url(fonts/aa.ttf);
+}
+
+html {
+  font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: aa;/* this should be the rest of the output you got from Google fonts*/
+}
